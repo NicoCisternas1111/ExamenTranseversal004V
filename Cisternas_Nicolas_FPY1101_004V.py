@@ -1,30 +1,3 @@
-"""
-trabajadores = ["Juan Pérez”,”María García”,”Carlos López”,”Ana Martínez”,”Pedro Rodríguez”,”Laura Hernández”,”Miguel Sánchez”,”Isabel Gómez”,”Francisco Díaz”,”Elena Fernández"]
-La aplicación deberá poseer un menú con las siguientes funcionalidades:
-1. Asignar sueldos aleatorios
-2. Clasificar sueldos
-3. Ver estadísticas.
-4. Reporte de sueldos
-5. Salir del programa
-Cada función se detalla a continuación:
-1. Asignar sueldos aleatorios
-Para la generación de estos sueldos debe crear una función capaz de generar los 10 sueldos de forma aleatoria los que serán usados posteriormente para la ejecución del programa.
-2. Clasificar sueldos
-Deberá desarrollar una función que permita mostrar la lista de empleados con su sueldo y su respectiva clasificación según el siguiente esquema
-3. Ver estadísticas
-Crear una función que permita mostrar por pantalla los siguientes datos con respecto a los sueldos:
- Sueldo más alto
- Sueldo más bajo
- Promedio de sueldos
- Media geométrica
-4. Reporte de sueldos
-La aplicación deberá poseer una función para mostrar el detalle de los sueldos de los trabajadores, según la siguiente regla de negocio:
- Descuento salud 7%
- Descuento AFP 12%
- Sueldo líquido calculado en base al sueldo base menos el descuento en salud y menos el descuento afp.
-Estos datos se deberán exportar a un archivo de texto separado por comas (.csv) para su posterior lectura en otra aplicación.
-"""
-
 import random
 import csv
 import math
